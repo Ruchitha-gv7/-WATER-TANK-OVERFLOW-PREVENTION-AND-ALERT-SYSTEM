@@ -17,23 +17,37 @@ A 5V DC buzzer alerts users when water levels reach critical thresholds, and a 2
 The system operates continuously with stable performance and consistent monitoring. Initial calibration ensures accuracy, with periodic recalibration needed for temperature and tank shape variations. The breadboard setup allows for flexible adjustments during testing, with potential for more permanent assembly in long-term deployment.
 ## Results
 Accurate Water Level Monitoring: The ultrasonic sensor precisely measures and updates water levels in real-time.
+
 Effective Alarm System: The 5V DC buzzer reliably alerts users to critical water levels, with manual deactivation via the push button.
+
 Real-Time Notifications: The ESP32 ensures timely and accurate alerts through the Blynk app.
+
 Stable Wi-Fi Connectivity: The system maintains consistent communication with the Blynk IoT platform for continuous monitoring.
+
 Durable Performance: The system operates reliably over extended periods, demonstrating robust performance and stability.
+
 ## Hardware Components
 ESP32 DEV KIT V1: The microcontroller that processes sensor data and communicates with the Blynk platform.
+
 HC-SR04 Ultrasonic Sensor: Measures the distance to the water level.
+
 220-ohm Resistors: Used to limit current and protect components.
+
 LED: Provides visual feedback.
+
 2-pin Push Button: Allows manual deactivation of the alarm.
+
 Buzzer: Alerts users to critical water levels.
+
 Breadboard: For prototyping and testing the circuit.
+
 Jumper Wires: Connects components on the breadboard.
 
 ## Software Components
-### Arduino IDE: Used for writing and uploading code to the ESP32.
-### Blynk IoT: Platform used for real-time monitoring and notifications.
+### Arduino IDE: 
+Used for writing and uploading code to the ESP32.
+### Blynk IoT: 
+Platform used for real-time monitoring and notifications.
 
 ## Installation and Setup
 1. Install Required Software
